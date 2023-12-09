@@ -38,7 +38,6 @@ img {
   display: flex;
   margin-right: 332px;
   align-items: center;
-  padding: 24px 0;
 }
 
 .links-nav {
@@ -93,6 +92,11 @@ a:active {
   font-weight: 500;
   line-height: 1.5em; /* 150% */
   letter-spacing: 0.02em;
+  padding: 24px 0;
+}
+
+.nav-links {
+  padding: 24px 0;
 }
 
 .nav-item:hover {
@@ -107,10 +111,8 @@ a:active {
   color: #404bbf;
 }
 
-.address {
-  padding: 24px 0;
-}
 .address-list {
+  flex-shrink: 0;
   gap: 40px;
   color: #434455;
   display: flex;
@@ -119,6 +121,8 @@ a:active {
   line-height: 1.5em; /* 24px */
   letter-spacing: 0.02em;
   font-style: normal;
+  align-items: center;
+  justify-content: center;
 }
 
 .address-item {
