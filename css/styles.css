@@ -37,7 +37,6 @@ img {
 .links-nav {
   display: flex;
   gap: 40px;
-  padding: 24px 0 24px;
 }
 
 ul {
@@ -117,7 +116,6 @@ a:active {
   line-height: 1.5em; /* 24px */
   letter-spacing: 0.02em;
   font-style: normal;
-  padding: 24px 0;
 }
 
 .address-item {
