@@ -108,6 +108,10 @@ a:active {
   color: #404bbf;
 }
 
+.nav-links {
+  padding: 24px 0;
+}
+
 .address-list {
   gap: 40px;
   color: #434455;
