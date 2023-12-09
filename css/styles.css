@@ -14,6 +14,12 @@ p {
   margin: 0;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
 img {
   display: block;
 }
@@ -37,12 +43,7 @@ img {
 .links-nav {
   display: flex;
   gap: 40px;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding-left: 0;
+  padding: 24px 0;
 }
 
 li {
@@ -79,7 +80,6 @@ a:active {
   letter-spacing: 0.54px;
   text-transform: uppercase;
   margin-right: 76px;
-  padding: 24px 0;
 }
 
 .studio {
@@ -93,7 +93,6 @@ a:active {
   font-weight: 500;
   line-height: 1.5em; /* 150% */
   letter-spacing: 0.02em;
-  padding: 24px 0;
 }
 
 .nav-item:hover {
@@ -108,10 +107,6 @@ a:active {
   color: #404bbf;
 }
 
-.nav-links {
-  padding: 24px 0;
-}
-
 .address-list {
   gap: 40px;
   color: #434455;
@@ -121,6 +116,7 @@ a:active {
   line-height: 1.5em; /* 24px */
   letter-spacing: 0.02em;
   font-style: normal;
+  padding: 24px 0;
 }
 
 .address-item {
@@ -129,7 +125,6 @@ a:active {
   font-size: 16px;
   line-height: 1.5em; /* 24px */
   letter-spacing: 0.02em;
-  padding: 24px 0;
 }
 
 .address-item:hover {
