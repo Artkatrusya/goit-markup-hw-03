@@ -38,12 +38,12 @@ img {
   display: flex;
   margin-right: 332px;
   align-items: center;
+  padding: 24px 0;
 }
 
 .links-nav {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 li {
@@ -107,6 +107,9 @@ a:active {
   color: #404bbf;
 }
 
+.address {
+  padding: 24px 0;
+}
 .address-list {
   gap: 40px;
   color: #434455;
@@ -116,7 +119,6 @@ a:active {
   line-height: 1.5em; /* 24px */
   letter-spacing: 0.02em;
   font-style: normal;
-  padding: 24px 0;
 }
 
 .address-item {
