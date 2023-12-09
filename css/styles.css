@@ -19,16 +19,15 @@ img {
 }
 
 .container {
-  margin: 0 auto;
   width: 1158px;
-  padding: 0 15px 0 15px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .header .container {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
+
 .navigation {
   display: flex;
   margin-right: 332px;
@@ -94,6 +93,7 @@ a:active {
   font-weight: 500;
   line-height: 1.5em; /* 150% */
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .nav-item:hover {
