@@ -20,8 +20,7 @@ img {
 
 .container {
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin-left: auto;
   margin-right: auto;
   width: 1158px;
@@ -111,7 +110,7 @@ a:active {
   color: #404bbf;
 }
 
-.address ul {
+.address-list {
   gap: 40px;
   color: #434455;
   display: flex;
@@ -129,6 +128,7 @@ a:active {
   font-size: 16px;
   line-height: 1.5em; /* 24px */
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .address-item:hover {
@@ -206,20 +206,6 @@ a:active {
   margin-bottom: 8px;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
 .features {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -227,11 +213,7 @@ a:active {
   gap: 24px;
 }
 
-.features h2 {
-  visibility: hidden;
-}
-
-.features ul {
+.features-list {
   gap: 24px;
   display: flex;
 }
@@ -250,6 +232,20 @@ a:active {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .p-features {
@@ -320,6 +316,7 @@ a:active {
 .portfolio-box-items {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .portfolio-item {
